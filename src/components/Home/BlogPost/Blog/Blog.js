@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import "./Blog.css";
+import Loader from "react-loader-spinner";
 import BlogSidebar from '../BlogSidebar/BlogSidebar/BlogSidebar'
 
 
@@ -7,7 +9,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([])
     console.log("Blogs:", blogs)
     useEffect(() => {
-        fetch("http://localhost:5000/blogs")
+        fetch("https://guarded-island-30446.herokuapp.com/blogs")
             .then(res => res.json())
             .then(data => {
                 setBlogs(data);
@@ -16,6 +18,7 @@ const Blog = () => {
 
     return (
         <section className="flex justify-center">
+            <Loader className="loader" type="BallTriangle" color="#00BFFF" height={150} width={150} timeout={250} />
             <div className="w-11/12 grid md:grid-cols-3 mt-5">
                 <div className="md:col-start-1 md:col-end-3">
                     {

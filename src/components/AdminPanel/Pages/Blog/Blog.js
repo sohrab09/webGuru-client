@@ -30,7 +30,7 @@ const Blog = () => {
         formData.append('postOwner', blogPost.postOwner);
         formData.append('category', blogPost.category);
         formData.append('description', blogPost.description);
-        fetch('http://localhost:5000/admin/post-blog', {
+        fetch('https://guarded-island-30446.herokuapp.com/admin/post-blog', {
             method: "POST",
             body: formData,
         })

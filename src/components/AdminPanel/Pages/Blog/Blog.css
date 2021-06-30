@@ -8,3 +8,7 @@ input:-webkit-autofill:active {
 ::-webkit-file-upload-button{
     display: none;
 }
+
+.submitBtn {
+  cursor: pointer;
+}

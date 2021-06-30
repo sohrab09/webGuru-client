@@ -4,9 +4,9 @@ import './SideBanner.css'
 const SideBanner = () => {
     return (
         <div className="px-3 mt-10">
-            <div className="sideBanner text-white flex justify-center items-center flex-col">
-                <h1 className="text-2xl font-bold  ">Jane Smith</h1>
-                <p className="mt-4">Thank's for visiting me...</p>
+            <div className="sideBanner flex justify-center items-center flex-col">
+                <h1 className="text-5xl font-bold sideBannerFont">Web Guru</h1>
+                <p className="mt-4 font-bold sideBannerFont">Thanks for visit</p>
             </div>
         </div>
     );

@@ -13,13 +13,12 @@ const HomeAbout = () => {
                 </div>
                 <div className="mb-10 sm:mt-5 md:mt-0 bg-white md:ml-3 rounded-lg  h-72 2xl:h-96">
                     <div className="px-5 md:px-0 py-5 text-gray-500 md:ml-4 flex flex-col items-center text-center md:items-start md:text-left h-72 2xl:h-96 justify-around">
-                        {/* <h1 className="font-bold">About me <FontAwesomeIcon icon={faMinus} /></h1> */}
                         <div className="md:flex items-center">
                             <img className="rounded-full w-20" src={aboutProfile} alt="" />
-                            <p className="mt-3 md:mt-0 md:ml-4 text-lg font-medium text-red-400">Jane Smith</p>
+                            <p className="mt-3 md:mt-0 md:ml-4 text-lg font-medium text-red-400">Sohrab Hossain</p>
                         </div>
-                        <p className="md:pr-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, aut esse. Neque soluta harum officia</p>
-                        <a className="font-bold text-blue-900" href="">more about me <FontAwesomeIcon icon={faLongArrowAltRight} /></a>
+                        <p className="md:pr-10">Love yourself for who you are, and trust me, if you are happy from within, you are the most beautiful person, and your smile is your best asset.</p>
+                        <a className="font-bold text-blue-900" href="/">More <FontAwesomeIcon icon={faLongArrowAltRight} /></a>
                     </div>
                 </div>
             </div>
